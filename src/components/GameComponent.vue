@@ -28,12 +28,12 @@
             <div class="point">Point: {{point}}</div>
             <div class="point">Time: {{time}}</div>
         </div>
-        <div class="result" v-if="result">
+        <div class="result" v-if="true">
             <div>
                 <span class="text-center gongrats-text">Congratulations</span>
-                <p>Time: {{time}}</p>
-                <p>Point: {{point}}</p>
-                <input type="button" value="Restart" class="button" @click="restart">
+                <p><span class="emoji">⏱</span> {{time}}</p>
+                <p><span class="emoji">🪙</span> {{point}}</p>
+                <button type="button" class="button" @click="restart" >RESTART</button>
             </div>
         </div>
     </div>
@@ -249,10 +249,22 @@
         margin: 200px auto;
         background-color: #fff;
         border-radius: 8px;
-        padding: 20px;
+        padding: 35px;
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+    }
+    
+    .gongrats-text {
+        font-size: 25px;
+        font-weight: bold;
+        color: #003764;
     }
 
     .text-center {
         text-align: center;
+    }
+
+    .emoji {
+        font-size: 2rem;
     }
 </style>
