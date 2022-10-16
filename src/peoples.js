@@ -2,7 +2,7 @@ export default [
     {
         "id": 1,
         "country": "Armenia",
-        "countryImage": "flags/armeania.png",
+        "countryImage": "flags/armenia.png",
         "competitorImage": "competitors/armenia.jpeg",
         "expertImage": "experts/armenia.jpeg",
         "expertName": "Artur Petrosyan",
