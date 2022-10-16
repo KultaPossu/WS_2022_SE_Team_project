@@ -30,10 +30,10 @@
         </div>
         <div class="result" v-if="result">
             <div>
-                <h1 class="text-center">Congratulations !!!</h1>
+                <span class="text-center gongrats-text">Congratulations</span>
                 <p>Time: {{time}}</p>
                 <p>Point: {{point}}</p>
-                <input type="button" value="Restart" @click="restart">
+                <input type="button" value="Restart" class="button" @click="restart">
             </div>
         </div>
     </div>

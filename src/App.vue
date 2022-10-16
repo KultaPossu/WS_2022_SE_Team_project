@@ -73,4 +73,36 @@
         width: 100%;
         height: 100vh;
     }
+
+    .button {
+        position: relative;
+        width: 20ch;
+        padding: 1rem;
+        background: #003764;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .button:hover {
+        background: #034973;
+    }
+    .button::after {
+        content: '';
+        position: absolute;
+        inset: 4px;
+        border: solid 2px white;
+        border-radius: 5px;
+    }
+
+    .gongrats-text {
+        font-size: 25px;
+        font-weight: bold;
+        color: #003764;
+    }
+
 </style>
