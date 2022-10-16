@@ -6,29 +6,29 @@
                 :class="{'card-rotated':people == frisSelectedPeople || people == lastSelectedPeople || (people.show)}"
                 :key="index" @click="click(people)">
                 <div class="card-froent">
-                    <img :src="'/assets/'+people.image" alt="">
+                    <img :src="'./assets/'+people.image" alt="">
                     <div class="name">{{people.name}} - {{people.country}}</div>
                     <div class="flag">
-                        <img :src="'/assets/'+people.countryImage" alt="">
+                        <img :src="'./assets/'+people.countryImage" alt="">
                     </div>
 
-                    <img class="portrait" :src="'/assets/'+people.image" alt="UAE competitor portrait" />
+                    <img class="portrait" :src="'./assets/'+people.image" alt="UAE competitor portrait" />
                     <div class="text">
-                        <img class="flag" :src="'/assets/'+people.countryImage" alt="UAE country flag" />
+                        <img class="flag" :src="'./assets/'+people.countryImage" alt="UAE country flag" />
                         <!-- <h2>{{people.name}}</h2> -->
                         <!-- <p>{{people.type}}</p> -->
                     </div>
                 </div>
                 <div class="card-back">
-                    <img src="/assets/Card Back.png" alt="">
+                    <img :src="'./assets/Card Back.png'" alt="">
                 </div>
             </div>
         </div>
         <div class="footer">
             <div class="point">Points: {{point}}</div>
             <div class="time">
-                <img src="/assets/timer_black_24dp.svg" alt="">
-                : {{time}}
+                <img :src="'./assets/timer_black_24dp.svg'" alt="">
+                {{time}}
             </div>
         </div>
         <div class="result" v-if="result">

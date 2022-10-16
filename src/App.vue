@@ -88,9 +88,11 @@
         font-weight: bold;
         cursor: pointer;
     }
+
     .button:hover {
         background: #034973;
     }
+
     .button::after {
         content: '';
         position: absolute;
@@ -104,5 +106,4 @@
         font-weight: bold;
         color: #003764;
     }
-
 </style>

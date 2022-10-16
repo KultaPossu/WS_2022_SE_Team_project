@@ -130,7 +130,7 @@ export default [
         "country": "Kazakhstan",
         "countryImage": "flags/kazakhstan.png",
         "competitorImage": "competitors/kazakhstan.jpeg",
-        "expertImage": "experts/japan.jpeg",
+        "expertImage": "experts/kazakhstan.jpeg",
         "expertName": "Aizhan Ziyadanova",
         "competitorName": "Dina Afanasyeva"
     },

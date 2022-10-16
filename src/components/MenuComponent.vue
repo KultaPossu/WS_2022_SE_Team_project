@@ -2,8 +2,13 @@
   <div class="menu">
     <h1>WSC - Ｍemory</h1>
     <div class="btns">
-      <input type="button" value="Easy" @click="start(8)">
-      <input type="button" value="Medium" @click="start(12)">
+
+      <button class="button" @click="start(8)">
+        Easy
+      </button>
+      <button class="button" @click="start(12)">
+        Medium
+      </button>
     </div>
   </div>
 </template>
@@ -23,5 +28,13 @@
 <style scoped>
   .menu {
     text-align: center;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
   }
 </style>
