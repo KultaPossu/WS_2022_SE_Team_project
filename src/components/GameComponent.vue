@@ -28,6 +28,14 @@
             <div class="point">Point: {{point}}</div>
             <div class="point">Time: {{time}}</div>
         </div>
+        <div class="result" v-if="result">
+            <div>
+                <h1 class="text-center">Congratulations !!!</h1>
+                <p>Time: {{time}}</p>
+                <p>Point: {{point}}</p>
+                <input type="button" value="Restart" @click="restart">
+            </div>
+        </div>
     </div>
 </template>
 
@@ -44,7 +52,8 @@
                 lastSelectedPeople: null,
                 point: 1000,
                 timeid: 0,
-                time: 0
+                time: 0,
+                result: false
             };
         },
         methods: {
@@ -75,6 +84,21 @@
                 } else {
                     this.frisSelectedPeople = people;
                 }
+
+                for (let people of this.peoples) {
+                    if (!people.show) {
+                        return
+                    }
+                }
+                clearInterval(this.timeid);
+                window.parent.postMessage({
+                    event_type: "game_run_end",
+                    score: this.point
+                });
+                this.result = true;
+            },
+            restart() {
+                location.reload();
             }
         },
         mounted() {
@@ -209,5 +233,26 @@
     .footer {
         display: flex;
         justify-content: space-between;
+    }
+
+    .result {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .result>div {
+        max-width: 400px;
+        margin: 200px auto;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+    }
+
+    .text-center {
+        text-align: center;
     }
 </style>

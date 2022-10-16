@@ -51,7 +51,7 @@
                         id: data.id,
                         type: "Competitor",
                         image: data.competitorImage,
-                        name: data.expertName,
+                        name: data.competitorName,
                         country: data.country,
                         countryImage: data.countryImage
                     });
