@@ -28,7 +28,7 @@
             <div class="point">Point: {{point}}</div>
             <div class="point">Time: {{time}}</div>
         </div>
-        <div class="result" v-if="true">
+        <div class="result" v-if="result">
             <div>
                 <span class="text-center gongrats-text">Congratulations</span>
                 <p><span class="emoji">⏱</span> {{time}}</p>
