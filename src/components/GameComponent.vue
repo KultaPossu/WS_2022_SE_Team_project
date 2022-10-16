@@ -1,6 +1,5 @@
 <template>
     <div class="menu">
-        <h1>WSC - Ｍemory</h1>
         <div class="cards" :style="'--size:'+size/2">
             <div class="card" v-for="(people,index) of peoples"
                 :class="{'card-rotated':people == frisSelectedPeople || people == lastSelectedPeople || (people.show)}"
@@ -264,10 +263,18 @@
         margin: 200px auto;
         background-color: #fff;
         border-radius: 8px;
-        padding: 20px;
+        padding: 35px;
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
     }
 
     .text-center {
         text-align: center;
+    }
+
+    .gongrats-text {
+        font-size: 25px;
+        font-weight: bold;
+        color: #003764;
     }
 </style>

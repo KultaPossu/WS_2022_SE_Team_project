@@ -1,10 +1,12 @@
 <template>
-    <div class="navbar">
-        <div class="logo">P-Media</div>
-    </div>
+    <header>
+        <h1>WSC-Memory</h1>
+    </header>
     <MenuComponent @start="onStart" v-if="!start"></MenuComponent>
     <GameComponent v-if="start" :peoples="peoples" :size="size"></GameComponent>
-    <div class="footer"></div>
+    <footer>
+        <p>Disclaimer: The images used belong to WorldSkills and are only used for the purpose of the demnstration</p>
+    </footer>
 </template>
 
 <script>
@@ -105,5 +107,39 @@
         font-size: 25px;
         font-weight: bold;
         color: #003764;
+    }
+
+    header {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-shrink: 0;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #003764;
+    }
+
+
+    footer {
+        padding: 0.2rem;
+        display: flex;
+        justify-content: end;
+        flex-shrink: 0;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    footer p {
+        margin: 0;
+        max-width: 50ch;
+        text-align: right;
+        font-size: 0.75rem;
+        line-height: 1.2;
     }
 </style>

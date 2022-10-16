@@ -1,6 +1,5 @@
 <template>
   <div class="menu">
-    <h1>WSC - Ｍemory</h1>
     <div class="btns">
 
       <button class="button" @click="start(8)">
