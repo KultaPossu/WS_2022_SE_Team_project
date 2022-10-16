@@ -2,99 +2,207 @@
   {
     "id":1,
     "country": "Armenia",
-    "countryImage": "armeania.png",
-    "competitorImage": "armenia.jpeg",
-    "expertImage": "armenia.jpeg",
+    "countryImage": "flags/armeania.png",
+    "competitorImage": "competitors/armenia.jpeg",
+    "expertImage": "experts/armenia.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 2,
     "country": "Austria",
-    "countryImage": "austria.png",
-    "competitorImage": "austria.jpeg",
-    "expertImage": "austria.jpeg",
+    "countryImage": "flags/austria.png",
+    "competitorImage": "competitors/austria.jpeg",
+    "expertImage": "experts/austria.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 3,
     "country": "Azerbaijan",
-    "countryImage": "azerbaijan.png",
-    "competitorImage": "azerbaijan.jpeg",
-    "expertImage": "azerbaijan.jpeg",
+    "countryImage": "flags/azerbaijan.png",
+    "competitorImage": "competitors/azerbaijan.jpeg",
+    "expertImage": "experts/azerbaijan.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 4,
     "country": "China",
-    "countryImage": "china.png",
-    "competitorImage": "china.png",
-    "expertImage": "china.jpeg",
+    "countryImage": "flags/china.png",
+    "competitorImage": "competitors/china.png",
+    "expertImage": "experts/china.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 5,
     "country": "Chinese taipei",
-    "countryImage": "chinese_taipei.png",
-    "competitorImage": "chinese_taipei.jpeg",
-    "expertImage": "chinese_taipei.jpeg",
+    "countryImage": "flags/chinese_taipei.png",
+    "competitorImage": "competitors/chinese_taipei.jpeg",
+    "expertImage": "experts/chinese_taipei.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 6,
     "country": "Colombia",
-    "countryImage": "colombia.png",
-    "competitorImage": "colombia.jpeg",
-    "expertImage": "colombia.jpeg",
+    "countryImage": "flags/colombia.png",
+    "competitorImage": "competitors/colombia.jpeg",
+    "expertImage": "experts/colombia.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 7,
     "country": "Costa rica",
-    "countryImage": "costa_rica.png",
-    "competitorImage": "costa_rica.jpeg",
-    "expertImage": "costa_rica.jpeg",
+    "countryImage": "flags/costa_rica.png",
+    "competitorImage": "competitors/costa_rica.jpeg",
+    "expertImage": "experts/costa_rica.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 8,
     "country": "Finland",
-    "countryImage": "finland.png",
-    "competitorImage": "finland.jpeg",
-    "expertImage": "finland.jpeg",
+    "countryImage": "flags/finland.png",
+    "competitorImage": "competitors/finland.jpeg",
+    "expertImage": "experts/finland.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 9,
     "country": "France",
-    "countryImage": "france.png",
-    "competitorImage": "france.jpeg",
-    "expertImage": "france.jpeg",
+    "countryImage": "flags/france.png",
+    "competitorImage": "competitors/france.jpeg",
+    "expertImage": "experts/france.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 10,
     "country": "Hong Kong",
-    "countryImage": "hong_kong.png",
-    "competitorImage": "hong_kong.jpeg",
-    "expertImage": "hong_kong.jpeg",
+    "countryImage": "flags/hong_kong.png",
+    "competitorImage": "competitors/hong_kong.jpeg",
+    "expertImage": "experts/hong_kong.jpeg",
     "expertName": "name",
     "competitorName": "name"
   },
   {
     "id": 11,
-    "country": "Hong Kong",
-    "countryImage": "hong_kong.png",
-    "competitorImage": "hong_kong.jpeg",
-    "expertImage": "hong_kong.jpeg",
+    "country": "Hungary",
+    "countryImage": "flags/hungary.png",
+    "competitorImage": "competitors/hungary.png",
+    "expertImage": "experts/hungary.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 12,
+    "country": "India",
+    "countryImage": "flags/india.png",
+    "competitorImage": "competitors/india.png",
+    "expertImage": "experts/india.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 13,
+    "country": "Iran",
+    "countryImage": "flags/iran.png",
+    "competitorImage": "competitors/iran.jpeg",
+    "expertImage": "experts/iran.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 14,
+    "country": "Japan",
+    "countryImage": "flags/japan.png",
+    "competitorImage": "competitors/japan.png",
+    "expertImage": "experts/japan.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 15,
+    "country": "Kazakhstan",
+    "countryImage": "flags/kazakhstan.png",
+    "competitorImage": "competitors/kazakhstan.jpeg",
+    "expertImage": "experts/japan.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 16,
+    "country": "Latvia",
+    "countryImage": "flags/latvia.png",
+    "competitorImage": "competitors/latvia.jpeg",
+    "expertImage": "experts/latvia.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 17,
+    "country": "Saudi Arabia",
+    "countryImage": "flags/saudi_arabia.png",
+    "competitorImage": "competitors/saudi_arabia.jpeg",
+    "expertImage": "experts/saudi_arabia.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 18,
+    "country": "Singapore",
+    "countryImage": "flags/singapore.png",
+    "competitorImage": "competitors/singapore.jpeg",
+    "expertImage": "experts/saudi_arabia.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 19,
+    "country": "Spain",
+    "countryImage": "flags/spain.png",
+    "competitorImage": "competitors/spain.png",
+    "expertImage": "experts/spain.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 20,
+    "country": "Sweden",
+    "countryImage": "flags/sweden.png",
+    "competitorImage": "competitors/sweden.jpeg",
+    "expertImage": "experts/sweden.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 21,
+    "country": "Switzerland",
+    "countryImage": "flags/switzerland.png",
+    "competitorImage": "competitors/switzerland.jpeg",
+    "expertImage": "experts/switzerland.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 22,
+    "country": "United Arab Emirates",
+    "countryImage": "flags/UAE.png",
+    "competitorImage": "competitors/UAE.jpeg",
+    "expertImage": "experts/UAE.jpeg",
+    "expertName": "name",
+    "competitorName": "name"
+  },
+  {
+    "id": 22,
+    "country": "UK",
+    "countryImage": "flags/UK.png",
+    "competitorImage": "competitors/UK.jpeg",
+    "expertImage": "experts/UK.jpeg",
     "expertName": "name",
     "competitorName": "name"
   }
