@@ -5,8 +5,8 @@
     "countryImage": "flags/armeania.png",
     "competitorImage": "competitors/armenia.jpeg",
     "expertImage": "experts/armenia.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Artur Petrosyan",
+    "competitorName": "Melkon Hovhannisyan"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "countryImage": "flags/austria.png",
     "competitorImage": "competitors/austria.jpeg",
     "expertImage": "experts/austria.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Franz Stefan Stimpfl",
+    "competitorName": "Viktor Karpinski"
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "countryImage": "flags/azerbaijan.png",
     "competitorImage": "competitors/azerbaijan.jpeg",
     "expertImage": "experts/azerbaijan.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Vahid Gasimov",
+    "competitorName": "Fagan Rasulov"
   },
   {
     "id": 4,
@@ -32,8 +32,8 @@
     "countryImage": "flags/china.png",
     "competitorImage": "competitors/china.png",
     "expertImage": "experts/china.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Ling Zhang",
+    "competitorName": "Jun Liang"
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "countryImage": "flags/chinese_taipei.png",
     "competitorImage": "competitors/chinese_taipei.jpeg",
     "expertImage": "experts/chinese_taipei.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Chorng-Shiuh Koong",
+    "competitorName": "YIN-NIEN CHYOU"
   },
   {
     "id": 6,
@@ -50,8 +50,8 @@
     "countryImage": "flags/colombia.png",
     "competitorImage": "competitors/colombia.jpeg",
     "expertImage": "experts/colombia.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Oscar Aristizabal",
+    "competitorName": "Juan Esteban Deossa"
   },
   {
     "id": 7,
@@ -59,8 +59,8 @@
     "countryImage": "flags/costa_rica.png",
     "competitorImage": "competitors/costa_rica.jpeg",
     "expertImage": "experts/costa_rica.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Abraham Quesada Castro",
+    "competitorName": "Alonso Fabian Artavia"
   },
   {
     "id": 8,
@@ -68,8 +68,8 @@
     "countryImage": "flags/finland.png",
     "competitorImage": "competitors/finland.jpeg",
     "expertImage": "experts/finland.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Margit Tennosaar",
+    "competitorName": "Valtteri Verronen"
   },
   {
     "id": 9,
@@ -77,8 +77,8 @@
     "countryImage": "flags/france.png",
     "competitorImage": "competitors/france.jpeg",
     "expertImage": "experts/france.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Gilles Granger",
+    "competitorName": "Evan Juge"
   },
   {
     "id": 10,
@@ -86,8 +86,8 @@
     "countryImage": "flags/hong_kong.png",
     "competitorImage": "competitors/hong_kong.jpeg",
     "expertImage": "experts/hong_kong.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Sui Lun Wu",
+    "competitorName": "Ka Hing WONG"
   },
   {
     "id": 11,
@@ -95,8 +95,8 @@
     "countryImage": "flags/hungary.png",
     "competitorImage": "competitors/hungary.png",
     "expertImage": "experts/hungary.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Zoltán Sisák",
+    "competitorName": "Botond Bendeguz Sisak"
   },
   {
     "id": 12,
@@ -104,8 +104,8 @@
     "countryImage": "flags/india.png",
     "competitorImage": "competitors/india.png",
     "expertImage": "experts/india.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Dhruv Joshi",
+    "competitorName": "Advaith Arun Jeena"
   },
   {
     "id": 13,
@@ -113,8 +113,8 @@
     "countryImage": "flags/iran.png",
     "competitorImage": "competitors/iran.jpeg",
     "expertImage": "experts/iran.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Mohammad hossein",
+    "competitorName": "Danial Dezfouli Nejad"
   },
   {
     "id": 14,
@@ -122,8 +122,8 @@
     "countryImage": "flags/japan.png",
     "competitorImage": "competitors/japan.png",
     "expertImage": "experts/japan.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Ryoju Ohata",
+    "competitorName": "Haruka Yamada"
   },
   {
     "id": 15,
@@ -131,8 +131,8 @@
     "countryImage": "flags/kazakhstan.png",
     "competitorImage": "competitors/kazakhstan.jpeg",
     "expertImage": "experts/japan.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Aizhan Ziyadanova",
+    "competitorName": "Dina Afanasyeva"
   },
   {
     "id": 16,
@@ -140,8 +140,8 @@
     "countryImage": "flags/latvia.png",
     "competitorImage": "competitors/latvia.jpeg",
     "expertImage": "experts/latvia.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Roberts Flaumanis",
+    "competitorName": "Aleksis Steinburgs"
   },
   {
     "id": 17,
@@ -149,17 +149,17 @@
     "countryImage": "flags/saudi_arabia.png",
     "competitorImage": "competitors/saudi_arabia.jpeg",
     "expertImage": "experts/saudi_arabia.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "seham Ali",
+    "competitorName": "khadijah baothman"
   },
   {
     "id": 18,
     "country": "Singapore",
     "countryImage": "flags/singapore.png",
     "competitorImage": "competitors/singapore.jpeg",
-    "expertImage": "experts/saudi_arabia.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertImage": "experts/singapore.jpeg",
+    "expertName": "Siew Hwa Kang",
+    "competitorName": "Jun Ze Ong"
   },
   {
     "id": 19,
@@ -167,8 +167,8 @@
     "countryImage": "flags/spain.png",
     "competitorImage": "competitors/spain.png",
     "expertImage": "experts/spain.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Diego J. GARCÍA",
+    "competitorName": "ARNAU LLOPART"
   },
   {
     "id": 20,
@@ -176,8 +176,8 @@
     "countryImage": "flags/sweden.png",
     "competitorImage": "competitors/sweden.jpeg",
     "expertImage": "experts/sweden.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Oscar Ekholm Grahn",
+    "competitorName": "Rasmus Risberg"
   },
   {
     "id": 21,
@@ -185,8 +185,8 @@
     "countryImage": "flags/switzerland.png",
     "competitorImage": "competitors/switzerland.jpeg",
     "expertImage": "experts/switzerland.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Manuel J. Schaffner",
+    "competitorName": "Tom Diggelmann"
   },
   {
     "id": 22,
@@ -194,17 +194,17 @@
     "countryImage": "flags/UAE.png",
     "competitorImage": "competitors/UAE.jpeg",
     "expertImage": "experts/UAE.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Bruno Medeiros",
+    "competitorName": "Salem Alhadhrami"
   },
   {
     "id": 22,
-    "country": "UK",
+    "country": "United Kingdom",
     "countryImage": "flags/UK.png",
     "competitorImage": "competitors/UK.jpeg",
     "expertImage": "experts/UK.jpeg",
-    "expertName": "name",
-    "competitorName": "name"
+    "expertName": "Valentin Adamescu",
+    "competitorName": "Lewis Newton"
   }
 ]
 
