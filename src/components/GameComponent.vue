@@ -15,8 +15,8 @@
                     <img class="portrait" :src="'/assets/'+people.image" alt="UAE competitor portrait" />
                     <div class="text">
                         <img class="flag" :src="'/assets/'+people.countryImage" alt="UAE country flag" />
-                        <h2>{{people.name}}</h2>
-                        <p>{{people.type}}</p>
+                        <!-- <h2>{{people.name}}</h2> -->
+                        <!-- <p>{{people.type}}</p> -->
                     </div>
                 </div>
                 <div class="card-back">
@@ -25,8 +25,11 @@
             </div>
         </div>
         <div class="footer">
-            <div class="point">Point: {{point}}</div>
-            <div class="point">Time: {{time}}</div>
+            <div class="point">Points: {{point}}</div>
+            <div class="time">
+                <img src="/assets/timer_black_24dp.svg" alt="">
+                : {{time}}
+            </div>
         </div>
         <div class="result" v-if="result">
             <div>
@@ -139,6 +142,8 @@
 
         aspect-ratio: 1;
         border-radius: 1rem;
+        user-select: none;
+        cursor: pointer;
     }
 
     .card-froent>.portrait {
@@ -154,7 +159,6 @@
         bottom: 0;
         left: 0;
         right: 0;
-        padding: 0.25rem 0.5rem;
 
         background: white;
         color: #003764;
@@ -162,9 +166,9 @@
 
     .card-froent .text .flag {
         position: absolute;
-        top: 0;
-        right: 5%;
-        transform: translateY(-60%);
+        bottom: 0%;
+        right: 0%;
+        /* transform: translateY(-60%); */
         height: 1.5rem;
     }
 
@@ -175,12 +179,14 @@
         font-weight: bold;
         white-space: nowrap;
         overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .card-froent .text p {
         margin: 0;
         font-size: 0.75rem;
         font-weight: normal;
+        text-overflow: ellipsis;
     }
 
 
@@ -193,6 +199,7 @@
 
     .card-rotated {
         background-color: #999;
+        cursor: unset;
     }
 
     .card>div {
@@ -226,12 +233,20 @@
     }
 
     .point {
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
+    }
+
+    .time {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
     }
 
     .footer {
         display: flex;
+        margin-top: 16px;
         justify-content: space-between;
     }
 
